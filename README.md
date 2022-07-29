@@ -2,6 +2,7 @@
 Validation ->
 {
   "rules": {
+
     ".read": false, 
     ".write": false,
       "autoDB": {
