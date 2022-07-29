@@ -2,9 +2,9 @@
 Validation ->
 {
   "rules": {
-
     ".read": false, 
     ".write": false,
+
       "autoDB": {
         ".read": true, 
     		".write": true,
