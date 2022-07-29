@@ -68,7 +68,7 @@ function saveData(brand,year,cc,length,width,weight){
         alertSucces.style.display = 'block';
         setTimeout(function(){
             alertSucces.style.display = 'none';
-        },2000);
+        },3000);
     }).catch((err)=>{
         const alertErr = document.querySelector('.alert-danger');
         alertErr.style.display = 'block';
