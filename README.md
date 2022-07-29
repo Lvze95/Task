@@ -4,7 +4,6 @@ Validation ->
   "rules": {
     ".read": false, 
     ".write": false,
-      
       "autoDB": {
         ".read": true, 
     		".write": true,
@@ -25,7 +24,7 @@ Validation ->
           },
           "weight": {
             ".validate": "newData.isNumber() && newData.val() >= 600 && newData.val() <= 3000"
-        }
+      }
     }
   }
 }
