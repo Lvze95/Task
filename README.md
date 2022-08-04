@@ -8,7 +8,7 @@ Validation ->
 
       "autoDB": {
         ".read": true, 
-    		".write": true,
+    	".write": true,
           "brand": {
             ".validate": "newData.isString() && (newData.val().length > 0 &&newData.val().length <= 50)"
           },
@@ -30,4 +30,4 @@ Validation ->
     }
   }
 }
-/*
+
